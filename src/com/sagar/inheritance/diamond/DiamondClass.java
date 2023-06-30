@@ -26,6 +26,7 @@ public class DiamondClass implements DemoInterface1,DemoInterface2
     public static void main(String[] args) {
         DiamondClass obj=new DiamondClass();
         obj.display();
+       // DemoInterface1.super.display();
     }
 
 }

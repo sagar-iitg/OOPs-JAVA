@@ -18,11 +18,11 @@ interface DemoInterface3 extends  DemoInterface
 
 public class DiamondClass implements DemoInterface3,DemoInterface2
 {
-   // public void display()
-    //{
-          //DemoInterface1.super.display();
-        //DemoInterface2.super.display();
-    //}
+//    public void display()
+//    {
+//          DemoInterface1.super.display();
+//        DemoInterface2.super.display();
+//    }
 
     public static void main(String[] args) {
         DiamondClass obj=new DiamondClass();
